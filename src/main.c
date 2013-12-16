@@ -30,21 +30,6 @@ int main( void )
 
   ts_calibrate( &tscal_ui_cb );
 
-  int Cntr = 0;
-
-  int radius = 5;
-
-  while( 1 )
-  {
-    int x,y;
-    int pressed;
-
-    ts_poll(&x,&y,&pressed);
-
-    if( pressed )
-      LCD_SetPixel( x, y, LCD_COLOR_WHITE );
-  }
-
   xTaskCreate( MainTask1, ( signed char * ) "Main1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, NULL );
   xTaskCreate( MainTask2, ( signed char * ) "Main2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, NULL );
 
@@ -76,9 +61,12 @@ void MainTask1( void *pvParameters )
 {
   while( true )
   {
-    vTaskDelay( 500 );
-    debug_printf( "task 1\n" );
-    vTaskDelay( 500 );
+    int x, y, pressed;
+
+    ts_poll(&x,&y,&pressed);
+
+    if( pressed )
+      LCD_SetPixel( x, y, LCD_COLOR_WHITE );
   }
 }
 
@@ -87,15 +75,15 @@ void MainTask2( void *pvParameters )
 {
   while( true )
   {
-    vTaskDelay( 500 );
-    debug_printf( "task 2\n" );
-    vTaskDelay( 500 );
+	vTaskDelay( 500 );
+	debug_printf( "task 2\n" );
+	vTaskDelay( 500 );
   }
 }
 
 void vApplicationStackOverflowHook( xTaskHandle pxTask, signed char *pcTaskName )
 {
-  /* This function will get called if a task overflows its stack.   If the
+  /* This function will get called if a task overflows its stack.	 If the
   parameters are corrupt then inspect pxCurrentTCB to find which was the
   offending task. */
 

@@ -105,7 +105,7 @@ static u16 ADC_Measure(u16 ch)
 	ADC_Cmd(TS_ADC, ENABLE);
 	delay(100);
 
-#if 1
+#if 0
 	/* Enable ADC reset calibaration register */
 	ADC_ResetCalibration(TS_ADC);
 	/* Check the end of ADC reset calibration register */

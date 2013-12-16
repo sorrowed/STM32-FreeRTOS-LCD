@@ -23,8 +23,13 @@
   <ProjectSessionItem path="Stm32-FreeRTOS-LCD" name="unnamed" />
   <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD" name="unnamed" />
   <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files" name="unnamed" />
+  <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;CMSIS" name="unnamed" />
+  <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;CMSIS;CM3" name="unnamed" />
+  <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;CMSIS;CM3;DeviceSupport" name="unnamed" />
   <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;src" name="unnamed" />
   <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;src;lcd" name="unnamed" />
+  <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;Source Files;StdPeriphLib" name="unnamed" />
+  <ProjectSessionItem path="Stm32-FreeRTOS-LCD;Stm32-FreeRTOS-LCD;System Files" name="unnamed" />
  </Project>
  <Register1>
   <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="Stm32-FreeRTOS-LCD" />
@@ -55,10 +60,13 @@
   <Watches active="0" update="Never" />
  </Watch4>
  <Files>
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/Projects/STM32-FreeRTOS/src/main.c" y="61" path="/home/tom/Projects/STM32-FreeRTOS/src/main.c" left="0" selected="0" name="unnamed" top="18" />
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/opt/crossworks_for_arm_2.3/include/cross_studio_io.h" y="0" path="/opt/crossworks_for_arm_2.3/include/cross_studio_io.h" left="0" selected="0" name="unnamed" top="627" />
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/.rowley_associates_limited/CrossWorks for ARM/packages/targets/STM32/STM32_Startup.s" y="0" path="/home/tom/.rowley_associates_limited/CrossWorks for ARM/packages/targets/STM32/STM32_Startup.s" left="0" selected="0" name="unnamed" top="120" />
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.c" y="22" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.c" left="0" selected="1" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.c" y="22" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.h" y="19" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/lcd-320x240.h" left="0" selected="0" name="unnamed" top="9" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="./CMSIS/CM3/DeviceSupport/stm32f10x.h" y="8296" path="./CMSIS/CM3/DeviceSupport/stm32f10x.h" left="0" selected="0" name="unnamed" top="8272" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="26" debugPath="./inc/stm32f10x_conf.h" y="26" path="./inc/stm32f10x_conf.h" left="0" selected="0" name="unnamed" top="9" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="5" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/touchscreen-hw.c" y="107" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/touchscreen-hw.c" left="0" selected="0" name="unnamed" top="89" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/main.c" y="15" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/main.c" left="0" selected="1" name="unnamed" top="54" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="4" debugPath="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/touchscreen.c" y="157" path="/home/tom/Projects/STM32-FreeRTOS-LCD/src/lcd/touchscreen.c" left="0" selected="0" name="unnamed" top="0" />
  </Files>
- <ARMCrossStudioWindow activeProject="Stm32-FreeRTOS-LCD" autoConnectTarget="Olimex ARM-USB-OCD" debugSearchFileMap="" fileDialogInitialDirectory="/home/tom/Projects/Stm32-FreeRTOS-LCD/STM32F10x_StdPeriph_Driver/src" fileDialogDefaultFilter="*.c" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Debug" />
+ <ARMCrossStudioWindow activeProject="Stm32-FreeRTOS-LCD" autoConnectTarget="Olimex ARM-USB-OCD" debugSearchFileMap="" fileDialogInitialDirectory="/home/tom/Projects/STM32-FreeRTOS-LCD/STM32F10x_StdPeriph_Driver/src" fileDialogDefaultFilter="*.c" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Debug" />
 </session>
