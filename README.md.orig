@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+STM32-FreeRTOS-LCD
+==================
+
+Olimex STM32-LCD using FreeRTOS
+=======
+STM32-FreeRTOS
+==============
+
+Template Crossworks project for STM32F103 with FreeRTOS
+>>>>>>> upstream/master

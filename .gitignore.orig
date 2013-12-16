@@ -16,6 +16,9 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
+=======
 
 
 THUMB Debug
+>>>>>>> upstream/master
